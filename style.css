@@ -13,6 +13,7 @@ body {
     align-items: center;
     gap: 80px;
     padding-bottom: 80px;
+    min-width: 400px;
 
 }
 
@@ -122,7 +123,7 @@ a {
     gap: 40px;
     max-width: 820px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .card {
@@ -137,7 +138,7 @@ a {
 }
 
 .card-image {
-    max-width: 150px;
+    max-width: 170px;
 }
 
 .image-description {
@@ -172,5 +173,66 @@ a {
 
 .author {
     align-self: flex-end;
+}
+
+.author-text {
+    font-weight: 600;
+}
+
+/* CTA SECTION */
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+
+}
+
+.border-section {
+    background-color: #3882F6;
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.large-text {
+    font-size: 24px;
+    font-weight: 600;
+    color :#F9FAF8;
+    margin: 0;
+}
+
+.small-text {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+    color :#F9FAF8;
+}
+
+.cta-button {
+    border: #F9FAF8 solid 2px;
+    padding: 12px 32px; 
+    border-radius: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 12px;
+    padding: px;
 }
 
